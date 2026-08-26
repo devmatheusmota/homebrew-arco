@@ -20,7 +20,7 @@ cask "arco" do
   # native bindings target Node's ABI. Without a Node on the machine, every pane
   # stays empty.
   depends_on formula: "node"
-  depends_on macos: ">= :catalina"
+  depends_on macos: :catalina
 
   app "Arco.app"
 
