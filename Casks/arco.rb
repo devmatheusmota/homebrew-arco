@@ -1,9 +1,9 @@
 cask "arco" do
   arch arm: "arm64", intel: "x64"
 
-  version "3.4.2"
-  sha256 arm:   "69d4996a4256bf956201bd06e9743eedf99168522d737a980b60c6b754131283",
-         intel: "16158a91a5d147bfb73d751b5438f2a47de821c733bee5606a4b3cdfeb091a90"
+  version "3.4.3"
+  sha256 arm:   "fdbfd0e53bd126429b8fe301386bb26bfa6f196345755b3230806dd4cd739751",
+         intel: "7c98254cabc57427ede34887f8f32a452fa7db0cded0ca2e127e8c1de46e9480"
 
   url "https://github.com/devmatheusmota/arco/releases/download/v#{version}/Arco-#{version}-#{arch}.dmg",
       verified: "github.com/devmatheusmota/arco/"
